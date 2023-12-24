@@ -1,0 +1,21 @@
+body {
+  background-image: url('/resumo_hist/home_page/egito/01.jpg'); /* Replace with the actual path to your image */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  /*color: whitesmoke; /* Set text color */
+  /* Add any additional styles for the body element here */
+}
+a:hover {
+  color: red;
+}
+a:visited {
+  color: rgb(255, 255, 255);
+}
+  
+h3 {
+  font-style: italic;
+  font-size: 19px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:#f8f5f5
+}

@@ -1,0 +1,1 @@
+alert("Questo sito ha una sintesi dell'Egitto")

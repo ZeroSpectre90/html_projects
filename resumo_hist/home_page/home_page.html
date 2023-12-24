@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Layout</title>
+    <script src="home_page.js"></script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Arial", sans-serif;
+      }
+
+      /* Apply flex container properties to the parent element */
+      .flex-container {
+        display: flex;
+        justify-content: space-between; /* Distribute items along the main axis */
+        align-items: center; /* Center items along the cross axis */
+        height: 100vh; /* Set a fixed height for the container (100% of the viewport height) */
+        background-color: #f0f0f0;
+        padding: 20px;
+        position: static;
+        top: 80%;
+        left: 0%;
+      }
+
+      /* Apply styles to flex items (children of the flex container) */
+      .flex-item {
+        flex: 0 0 30%; /* Make each item take up 30% of the container's width */
+        height: 100px;
+        background-color: #c4e673;
+        color: #fff;
+        text-align: center;
+        line-height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Riassunti della storia</h1>
+    <h2>Ecco i riassunti di alcuni capitoli della storia</h2>
+    <!-- Flex container -->
+    <div class="flex-container">
+      <!-- Flex items -->
+      <div class="flex-item">
+        <a href="/resumo_hist/home_page/egito/resumo_egito_it.html">Egito</a>
+      </div>
+      <div class="flex-item">Item 2</div>
+      <div class="flex-item">Item 3</div>
+    </div>
+  </body>
+</html>
